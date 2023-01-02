@@ -45,6 +45,11 @@ h5 {
 
 .wrapper {
   max-width: 1197px;
+  margin: auto;
+}
+
+.contact-us {
+  background: #FFEEE1;
 }
 
 /*# sourceMappingURL=style.css.map */

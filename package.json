@@ -1,0 +1,20 @@
+{
+  "name": "friday_live_coding",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "style": "sass sass/style.scss sass/style.css",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/TatyanaDolgova/friday_live_coding.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/TatyanaDolgova/friday_live_coding/issues"
+  },
+  "homepage": "https://github.com/TatyanaDolgova/friday_live_coding#readme"
+}

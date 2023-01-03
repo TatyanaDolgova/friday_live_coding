@@ -1,6 +1,12 @@
-@import 'base/base';
+
 @import 'abstract/constant';
+
+@import 'base/base';
+@import 'base/buttons';
+
+//layouts
 @import 'layouts/wrapper';
+@import 'layouts/header';
 
 //Components
 @import 'components/contact-us';

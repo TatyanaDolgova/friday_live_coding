@@ -16,5 +16,8 @@
   "bugs": {
     "url": "https://github.com/TatyanaDolgova/friday_live_coding/issues"
   },
-  "homepage": "https://github.com/TatyanaDolgova/friday_live_coding#readme"
+  "homepage": "https://github.com/TatyanaDolgova/friday_live_coding#readme",
+  "dependencies": {
+    "normalize-scss": "^7.0.1"
+  }
 }

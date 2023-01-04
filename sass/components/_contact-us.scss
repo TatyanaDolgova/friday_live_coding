@@ -5,12 +5,12 @@
 
 .contact-us__form {
   input, textarea {
-    border: none;
+    border: 1px solid $color-light;
     background-color: $color-light;
     padding: 10px 21px;
     border-radius: 5px;
     &:focus {
-      border: 1px solid $color-primary;
+      border-color: $color-primary;
       outline: none;
     }
   }

@@ -559,13 +559,13 @@ h5 {
 }
 
 .contact-us__form input, .contact-us__form textarea {
-  border: none;
+  border: 1px solid #fff;
   background-color: #fff;
   padding: 10px 21px;
   border-radius: 5px;
 }
 .contact-us__form input:focus, .contact-us__form textarea:focus {
-  border: 1px solid #FF9900;
+  border-color: #FF9900;
   outline: none;
 }
 .contact-us__form textarea {

@@ -5,3 +5,12 @@
 %font-add {
   font-family: 'Poppins', Verdana, sans-serif;
 }
+
+@mixin columns ($width) {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  >* {
+    flex-basis: $width;
+  }
+}

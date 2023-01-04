@@ -315,11 +315,11 @@ section, main, footer, header, article {
   box-sizing: border-box;
 }
 
-.logo-path {
+.navigation__link, .logo-path {
   transition: all 0.3s ease-out;
 }
 
-h1 {
+.promo__text, .link-button, h1 {
   font-family: "Poppins", Verdana, sans-serif;
 }
 
@@ -329,6 +329,9 @@ html {
 
 body {
   font-size: 1.6rem;
+  font-style: normal;
+  font-weight: normal;
+  line-height: 2.6rem;
   font-family: "Open Sans", Verdana, sans-serif;
 }
 
@@ -378,31 +381,48 @@ h5 {
   cursor: pointer;
   transition: all 0.3s;
 }
-
 .button_bordered {
   background: #fff;
   border: 1px solid #D7D7D7;
   color: #544837;
 }
-
+.button_bordered:hover {
+  background: #BCD0E5;
+  border-color: #BCD0E5;
+}
 .button_colored {
   background: #FF9900;
   color: #fff;
-  border: none;
+  border: 1px solid #FF9900;
 }
-
 .button_colored:hover {
   background: #FF7549;
   border-color: #FF7549;
 }
 
-.button_bordered:hover {
-  background: #BCD0E5;
-  border-color: #BCD0E5;
+.link-button {
+  color: #FF9900;
+  display: inline-flex;
+  align-items: center;
+}
+
+.link-button__text {
+  margin-left: 9px;
 }
 
 .logo-svg:hover .logo-path {
   fill: #FF9900;
+}
+
+.ico {
+  cursor: pointer;
+  display: inline-block;
+}
+
+.ico_play {
+  background-image: url("../img/icons/play.svg");
+  width: 18px;
+  height: 19px;
 }
 
 .wrapper {
@@ -430,18 +450,6 @@ h5 {
   margin-left: 0;
 }
 
-.navigation {
-  display: flex;
-  font-size: 1.5rem;
-  line-height: 2.8rem;
-}
-
-.navigation__link {
-  list-style: none;
-  padding: 0 10px;
-  cursor: pointer;
-}
-
 .contact-us {
   background: #FFEEE1;
 }
@@ -460,8 +468,36 @@ h5 {
   padding-right: 66px;
 }
 
+.promo__title {
+  margin: 0 0 30px;
+}
+
+.promo__text {
+  max-width: 487px;
+  margin: 0 0 45px;
+  font-size: 1.8rem;
+  font-style: normal;
+  font-weight: normal;
+  line-height: 2.8rem;
+}
+
 .promo__buttons > * {
   margin-right: 44px;
+}
+
+.navigation {
+  display: flex;
+  font-size: 1.5rem;
+  line-height: 2.8rem;
+}
+
+.navigation__link {
+  list-style: none;
+  padding: 0 10px;
+  cursor: pointer;
+}
+.navigation__link:hover {
+  color: #FF9900;
 }
 
 /*# sourceMappingURL=style.css.map */

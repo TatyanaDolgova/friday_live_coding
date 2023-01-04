@@ -347,3 +347,12 @@
   [hidden] {
     display: none;
   }
+
+section, main, footer, header, article {
+  display: block;
+}
+
+* {
+  box-sizing:border-box;
+}
+  

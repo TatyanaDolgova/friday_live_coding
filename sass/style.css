@@ -1,3 +1,7 @@
+.logo-path {
+  transition: all 0.3s ease-out;
+}
+
 html {
   font-size: 10px;
 }
@@ -75,6 +79,10 @@ h5 {
 .button_bordered:hover {
   background: #BCD0E5;
   border-color: #BCD0E5;
+}
+
+.logo-svg:hover .logo-path {
+  fill: #FF9900;
 }
 
 .wrapper {

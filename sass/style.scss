@@ -1,9 +1,12 @@
 
+//Abstract
 @import 'abstract/constant';
-
+@import "abstract/mixins";
+@import "abstract/placeholder";
+//Base
 @import 'base/base';
 @import 'base/buttons';
-
+@import 'base/logo';
 //layouts
 @import 'layouts/wrapper';
 @import 'layouts/header';

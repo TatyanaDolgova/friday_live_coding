@@ -315,7 +315,7 @@ section, main, footer, header, article {
   box-sizing: border-box;
 }
 
-.navigation__link, .logo-path {
+.navigation__link, .footer-navigation__links a, .logo-path {
   transition: all 0.3s ease-out;
 }
 
@@ -563,10 +563,26 @@ h5 {
 
 .footer-navigation {
   flex-grow: 1;
+  padding-left: 152px;
 }
 
 .footer-navigation__title {
   margin: 0 0 15px;
+}
+
+.footer-navigation__links {
+  list-style: none;
+}
+.footer-navigation__links a {
+  color: #544837;
+  font-size: 1.6rem;
+  font-style: normal;
+  font-weight: normal;
+  line-height: 3.6rem;
+  text-decoration: none;
+}
+.footer-navigation__links a:hover {
+  color: #FF9900;
 }
 
 .contact-us {
@@ -698,6 +714,22 @@ h5 {
 
 .strategy__name {
   margin: 0 0 29px;
+}
+
+.about-us {
+  padding: 30px 0 100px 0;
+}
+
+.about-us__title {
+  margin: 0 0 14px;
+}
+
+.about-us__description {
+  margin: 0 0 45px;
+}
+
+.employee {
+  display: flex;
 }
 
 /*# sourceMappingURL=style.css.map */

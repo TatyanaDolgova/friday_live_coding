@@ -8,12 +8,24 @@
 
 .footer-navigation {
   flex-grow: 1;
-}
-
-.footer-navigation__links {
-  @extend %font-add;
+  padding-left: 152px;
 }
 
 .footer-navigation__title {
   margin: 0 0 15px;
 }
+
+.footer-navigation__links {
+  @extend %font-add;
+  list-style: none;
+  a {
+    color: $color-text;
+    @extend %transition;
+    @include font ($size:1.6rem, $height:3.6rem, $weight: normal);
+    text-decoration: none;
+    &:hover {
+      color: $color-primary
+    }
+  }
+}
+

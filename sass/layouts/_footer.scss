@@ -1,0 +1,19 @@
+.footer {
+  padding: 60px 0 70px;
+}
+
+.footer__wrapper {
+  display: flex;
+}
+
+.footer-navigation {
+  flex-grow: 1;
+}
+
+.footer-navigation__links {
+  @extend %font-add;
+}
+
+.footer-navigation__title {
+  margin: 0 0 15px;
+}

@@ -319,7 +319,7 @@ section, main, footer, header, article {
   transition: all 0.3s ease-out;
 }
 
-.promo__text, .link-button, h1 {
+.promo__text, .footer-navigation__links, .link-button, h1 {
   font-family: "Poppins", Verdana, sans-serif;
 }
 
@@ -551,6 +551,22 @@ h5 {
 }
 .layout-2-column > * {
   flex-basis: 48%;
+}
+
+.footer {
+  padding: 60px 0 70px;
+}
+
+.footer__wrapper {
+  display: flex;
+}
+
+.footer-navigation {
+  flex-grow: 1;
+}
+
+.footer-navigation__title {
+  margin: 0 0 15px;
 }
 
 .contact-us {

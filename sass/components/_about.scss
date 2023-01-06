@@ -12,4 +12,29 @@
 
 .employee {
   display: flex;
+  padding: 35px;
+}
+
+.employee__name {
+  margin: 0;
+}
+
+.employee__title {
+  @include font($size: 1.4rem, $weight: normal);
+    margin: 0;
+}
+
+.employee__contact {
+  @include font($size: 1.4rem, $weight: normal);
+    color: $color-link;
+    text-decoration: none;
+    &:hover {
+        text-decoration: underline;
+    }
+}
+
+.employee__photo {
+  width: 98px;
+  height: 98px;
+  border-radius: 50%;
 }

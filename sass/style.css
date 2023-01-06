@@ -728,9 +728,15 @@ h5 {
   margin: 0 0 45px;
 }
 
+.employee-container {
+  padding-right: 32px;
+}
+
 .employee {
   display: flex;
   padding: 35px;
+  position: relative;
+  width: calc(30% - 32px);
 }
 
 .employee__name {
@@ -761,6 +767,10 @@ h5 {
   width: 98px;
   height: 98px;
   border-radius: 50%;
+  position: absolute;
+  top: 20px;
+  right: -32px;
+  box-shadow: 0px 15px 30px rgba(0, 0, 0, 0.15);
 }
 
 /*# sourceMappingURL=style.css.map */

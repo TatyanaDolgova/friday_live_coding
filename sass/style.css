@@ -341,6 +341,14 @@ h1 {
   font-weight: bold;
   line-height: 5.4rem;
 }
+@media (max-width: 414px) {
+  h1 {
+    font-size: 3.2rem;
+    font-style: normal;
+    font-weight: bold;
+    line-height: 4.2rem;
+  }
+}
 
 h2 {
   font-size: 3.4rem;
@@ -576,7 +584,7 @@ h5 {
 .header__logo-line {
   display: flex;
 }
-@media (max-width: 320px) {
+@media (max-width: 414px) {
   .header__logo-line {
     justify-content: center;
     flex-grow: 1;
@@ -587,7 +595,7 @@ h5 {
 .header__hamburger {
   margin-right: 37px;
 }
-@media (max-width: 320px) {
+@media (max-width: 414px) {
   .header__hamburger {
     position: absolute;
     left: 0;
@@ -598,10 +606,9 @@ h5 {
   margin-left: 14px;
 }
 .header__buttons > .button:first-child {
-  margin-left: 14px;
   margin-left: 0;
 }
-@media (max-width: 320px) {
+@media (max-width: 414px) {
   .header__buttons {
     display: none;
   }
@@ -697,6 +704,7 @@ h5 {
 
 .promo {
   padding: 30px 0;
+  overflow: hidden;
 }
 
 .promo__wrapper {
@@ -707,6 +715,11 @@ h5 {
 
 .promo__content {
   padding-right: 66px;
+}
+@media (max-width: 768px) {
+  .promo__content {
+    padding-right: 0;
+  }
 }
 
 .promo__title {
@@ -721,9 +734,21 @@ h5 {
   font-weight: normal;
   line-height: 2.8rem;
 }
+@media (max-width: 768px) {
+  .promo__text {
+    width: 380px;
+  }
+}
 
+.promo__buttons {
+  display: flex;
+  align-items: center;
+}
 .promo__buttons > * {
   margin-right: 44px;
+}
+.promo__buttons > *:last-child {
+  margin-right: 0;
 }
 
 .navigation {

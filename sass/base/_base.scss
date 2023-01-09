@@ -9,23 +9,26 @@ body {
 
 h1 {
   @extend %font-add;
-  @include font (4.4rem, 5.4rem)
+  @include font (4.4rem, 5.4rem);
+  @include media-mobile {
+    @include font($size:3.2rem, $height:4.2rem)
+  }
 }
 
 h2 {
-  @include font (3.4rem, 4.6rem)
+  @include font (3.4rem, 4.6rem);
 }
 
 h3 {
-  @include font (2.4rem, 3.4rem)
+  @include font (2.4rem, 3.4rem);
 }
 
 h4 {
-  @include font (2.2rem, 3rem, 600)
+  @include font (2.2rem, 3rem, 600);
 }
 
 h5 {
-@include font (1.6rem, 2.6rem)
+@include font (1.6rem, 2.6rem);
 }
 
 .block-shadowed {

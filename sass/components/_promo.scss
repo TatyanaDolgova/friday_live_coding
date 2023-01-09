@@ -1,0 +1,40 @@
+.promo {
+  padding: 30px 0;
+  overflow: hidden;
+}
+.promo__wrapper {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.promo__content {
+  padding-right: 66px;
+  @include media-tablet {
+    padding-right: 0;
+  }
+}
+
+.promo__title {
+  margin: 0  0 30px;
+}
+
+.promo__text {
+  max-width: 487px;
+  margin: 0 0 45px;
+  @extend %font-add;
+  @include font($size: 1.8rem, $height:2.8rem, $weight: normal);
+  @include media-tablet {
+    width: 380px;
+  }
+}
+
+.promo__buttons {
+  display: flex;
+  align-items: center;
+  >* {
+    margin-right: 44px;
+    &:last-child {
+      margin-right: 0;
+    }
+  }
+}

@@ -21,11 +21,10 @@
   a {
     color: $color-text;
     @extend %transition;
-    @include font ($size:1.6rem, $height:3.6rem, $weight: normal);
+    @include font($size: 1.6rem, $height: 3.6rem, $weight: normal);
     text-decoration: none;
     &:hover {
-      color: $color-primary
+      color: $color-primary;
     }
   }
 }
-

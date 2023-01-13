@@ -1,10 +1,11 @@
 .contact-us {
-    background: $color-background;
-    padding: 62px 82px;
+  background: $color-background;
+  padding: 62px 82px;
 }
 
 .contact-us__form {
-  input, textarea {
+  input,
+  textarea {
     border: 1px solid $color-light;
     background-color: $color-light;
     padding: 10px 21px;
@@ -22,11 +23,11 @@
 }
 
 .contact-us__line {
-    margin-bottom: 19px;
+  margin-bottom: 19px;
 }
 
 .contact-us__button {
-  >* {
+  > * {
     min-width: 117px;
   }
 }

@@ -9,35 +9,35 @@
   align-items: center;
   justify-content: space-between;
   @include media-tablet {
-      padding-left: 24px;
+    padding-left: 24px;
   }
 }
 
-.header__logo-line  {
+.header__logo-line {
   display: flex;
   @include media-mobile {
-      justify-content: center;
-      flex-grow: 1;
-      position: relative;
+    justify-content: center;
+    flex-grow: 1;
+    position: relative;
   }
 }
 
 .header__hamburger {
   margin-right: 37px;
   @include media-mobile {
-      position: absolute;
-      left: 0;
+    position: absolute;
+    left: 0;
   }
 }
 
 .header__buttons {
-  >.button {
-      margin-left: 14px;
-      &:first-child {
-          margin-left: 0;
-      }
+  > .button {
+    margin-left: 14px;
+    &:first-child {
+      margin-left: 0;
+    }
   }
   @include media-mobile {
-      display: none;
+    display: none;
   }
 }

@@ -1,4 +1,4 @@
-$image-gap:32px;
+$image-gap: 32px;
 
 .about-us {
   padding: 30px 0 100px 0;
@@ -29,16 +29,16 @@ $image-gap:32px;
 
 .employee__title {
   @include font($size: 1.4rem, $weight: normal);
-    margin: 0;
+  margin: 0;
 }
 
 .employee__contact {
   @include font($size: 1.4rem, $weight: normal);
-    color: $color-link;
-    text-decoration: none;
-    &:hover {
-        text-decoration: underline;
-    }
+  color: $color-link;
+  text-decoration: none;
+  &:hover {
+    text-decoration: underline;
+  }
 }
 
 .employee__photo {

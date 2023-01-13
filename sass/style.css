@@ -396,25 +396,25 @@ h5 {
 }
 .button_bordered {
   background: #fff;
-  border: 1px solid #D7D7D7;
+  border: 1px solid #d7d7d7;
   color: #544837;
 }
 .button_bordered:hover {
-  background: #BCD0E5;
-  border-color: #BCD0E5;
+  background: #bcd0e5;
+  border-color: #bcd0e5;
 }
 .button_colored {
-  background: #FF9900;
+  background: #ff9900;
   color: #fff;
-  border: 1px solid #FF9900;
+  border: 1px solid #ff9900;
 }
 .button_colored:hover {
-  background: #FF7549;
-  border-color: #FF7549;
+  background: #ff7549;
+  border-color: #ff7549;
 }
 
 .link-button {
-  color: #FF9900;
+  color: #ff9900;
   display: inline-flex;
   align-items: center;
 }
@@ -433,7 +433,7 @@ h5 {
 }
 
 .logo-svg:hover .logo-path {
-  fill: #FF9900;
+  fill: #ff9900;
 }
 
 .ico {
@@ -450,16 +450,16 @@ h5 {
   justify-content: center;
 }
 .icon-square_yellow {
-  background-color: #FAB005;
+  background-color: #fab005;
 }
 .icon-square_red {
-  background-color: #F03E3D;
+  background-color: #f03e3d;
 }
 .icon-square_blue {
-  background-color: #4DADF7;
+  background-color: #4dadf7;
 }
 .icon-square_violet {
-  background-color: #7752BE;
+  background-color: #7752be;
 }
 
 .ico_play {
@@ -508,21 +508,21 @@ h5 {
   line-height: 2.8rem;
 }
 .tag_selected {
-  background-color: #FF9900;
+  background-color: #ff9900;
   color: #fff;
 }
 .tag_bordered {
-  border: 1px solid #D7D7D7;
+  border: 1px solid #d7d7d7;
 }
 .tag_colored {
-  background-color: #F5F5F5;
+  background-color: #f5f5f5;
 }
 
 .hamburger__line, .hamburger:after, .hamburger:before {
   content: "";
   display: inline-block;
   position: absolute;
-  background-color: #173A56;
+  background-color: #173a56;
   border-radius: 5px;
   width: 100%;
   height: 3px;
@@ -675,22 +675,24 @@ h5 {
   text-decoration: none;
 }
 .footer-navigation__links a:hover {
-  color: #FF9900;
+  color: #ff9900;
 }
 
 .contact-us {
-  background: #FFEEE1;
+  background: #ffeee1;
   padding: 62px 82px;
 }
 
-.contact-us__form input, .contact-us__form textarea {
+.contact-us__form input,
+.contact-us__form textarea {
   border: 1px solid #fff;
   background-color: #fff;
   padding: 10px 21px;
   border-radius: 5px;
 }
-.contact-us__form input:focus, .contact-us__form textarea:focus {
-  border-color: #FF9900;
+.contact-us__form input:focus,
+.contact-us__form textarea:focus {
+  border-color: #ff9900;
   outline: none;
 }
 .contact-us__form textarea {
@@ -801,7 +803,7 @@ h5 {
   cursor: pointer;
 }
 .navigation__link:hover {
-  color: #FF9900;
+  color: #ff9900;
 }
 
 @media (max-width: 768px) {
@@ -1002,7 +1004,7 @@ h5 {
   font-style: normal;
   font-weight: normal;
   line-height: 1.4rem;
-  color: #1943EF;
+  color: #1943ef;
   text-decoration: none;
 }
 .employee__contact:hover {

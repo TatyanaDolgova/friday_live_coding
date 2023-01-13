@@ -1,16 +1,16 @@
 %transition {
-    transition: all .3s ease-out;
+  transition: all 0.3s ease-out;
 }
 
 %font-add {
-  font-family: 'Poppins', Verdana, sans-serif;
+  font-family: "Poppins", Verdana, sans-serif;
 }
 
-@mixin columns ($width) {
+@mixin columns($width) {
   display: flex;
   flex-wrap: wrap;
   justify-content: space-between;
-  >* {
+  > * {
     flex-basis: $width;
   }
 }

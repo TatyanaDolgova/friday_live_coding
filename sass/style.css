@@ -680,18 +680,68 @@ h5 {
 
 .contact-us {
   background: #ffeee1;
-  padding: 62px 82px;
+  padding: 62px 0;
+}
+@media (max-width: 768px) {
+  .contact-us {
+    text-align: center;
+  }
 }
 
-.contact-us__form input,
-.contact-us__form textarea {
+@media (max-width: 768px) {
+  .contact-us-container {
+    flex-direction: column;
+  }
+}
+
+.contact-us__title {
+  margin: 0 0 17px;
+}
+
+.contact-us__content {
+  max-width: 520px;
+}
+@media (max-width: 768px) {
+  .contact-us__content {
+    max-width: 100%;
+    margin-bottom: 52px;
+  }
+}
+
+.contact-us__text {
+  margin: 0 0 34px;
+}
+
+.contact-us__link {
+  margin: 0 0 19px;
+  display: flex;
+  align-items: center;
+  font-size: 2.5rem;
+  font-style: normal;
+  font-weight: normal;
+  line-height: 2.6rem;
+}
+@media (max-width: 768px) {
+  .contact-us__link {
+    justify-content: center;
+  }
+}
+.contact-us__link a {
+  margin-left: 11px;
+  color: #544837;
+  text-decoration: none;
+}
+.contact-us__link:hover a {
+  text-decoration: underline;
+}
+
+.contact-us__form input, .contact-us__form textarea {
   border: 1px solid #fff;
   background-color: #fff;
   padding: 10px 21px;
   border-radius: 5px;
 }
-.contact-us__form input:focus,
-.contact-us__form textarea:focus {
+.contact-us__form input:focus, .contact-us__form textarea:focus {
   border-color: #ff9900;
   outline: none;
 }
@@ -704,9 +754,23 @@ h5 {
 .contact-us__line {
   margin-bottom: 19px;
 }
+@media (max-width: 414px) {
+  .contact-us__line {
+    flex-direction: column;
+    margin-bottom: 0;
+  }
+  .contact-us__line > * {
+    margin-bottom: 19px;
+  }
+}
 
 .contact-us__button > * {
   min-width: 117px;
+}
+@media (max-width: 414px) {
+  .contact-us__button {
+    margin-top: 24px;
+  }
 }
 
 .promo {

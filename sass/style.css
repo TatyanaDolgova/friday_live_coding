@@ -563,6 +563,11 @@ h5 {
     padding: 0 46px;
   }
 }
+@media (max-width: 414px) {
+  .wrapper {
+    padding: 0 21px;
+  }
+}
 
 .header {
   background: #fff;
@@ -712,6 +717,11 @@ h5 {
   justify-content: space-between;
   align-items: center;
 }
+@media (max-width: 768px) {
+  .promo__wrapper {
+    flex-direction: column-reverse;
+  }
+}
 
 .promo__content {
   padding-right: 66px;
@@ -719,6 +729,11 @@ h5 {
 @media (max-width: 768px) {
   .promo__content {
     padding-right: 0;
+  }
+}
+@media (max-width: 414px) {
+  .promo__content {
+    text-align: center;
   }
 }
 
@@ -739,6 +754,11 @@ h5 {
     width: 380px;
   }
 }
+@media (max-width: 414px) {
+  .promo__text {
+    width: auto;
+  }
+}
 
 .promo__buttons {
   display: flex;
@@ -749,6 +769,24 @@ h5 {
 }
 .promo__buttons > *:last-child {
   margin-right: 0;
+}
+@media (max-width: 414px) {
+  .promo__buttons {
+    flex-direction: column;
+  }
+  .promo__buttons > * {
+    margin-right: 0;
+    margin-bottom: 26px;
+  }
+  .promo__buttons > *:last-child {
+    margin-bottom: 0;
+  }
+}
+
+@media (max-width: 414px) {
+  .promo__image {
+    min-width: 100%;
+  }
 }
 
 .navigation {
@@ -803,6 +841,11 @@ h5 {
 .strategies {
   padding: 30px 0;
 }
+@media (max-width: 768px) {
+  .strategies {
+    text-align: center;
+  }
+}
 
 .strategies__title {
   margin: 0 0 14px;
@@ -814,6 +857,11 @@ h5 {
 
 .strategies__tags {
   margin-bottom: 31px;
+}
+@media (max-width: 768px) {
+  .strategies__tags {
+    justify-content: center;
+  }
 }
 
 .strategy-wrapper > * {

@@ -6,11 +6,17 @@
   display: flex;
   justify-content: space-between;
   align-items: center;
+  @include media-tablet {
+    flex-direction: column-reverse;
+  }
 }
 .promo__content {
   padding-right: 66px;
   @include media-tablet {
     padding-right: 0;
+  }
+  @include media-mobile {
+    text-align: center;
   }
 }
 
@@ -26,6 +32,9 @@
   @include media-tablet {
     width: 380px;
   }
+  @include media-mobile {
+    width: auto;
+  }
 }
 
 .promo__buttons {
@@ -36,5 +45,21 @@
     &:last-child {
       margin-right: 0;
     }
+  }
+  @include media-mobile {
+    flex-direction: column;
+    >* {
+      margin-right: 0;
+      margin-bottom: 26px;
+      &:last-child {
+        margin-bottom: 0;
+      }
+  }
+}
+}
+
+.promo__image {
+  @include media-mobile {
+    min-width: 100%;
   }
 }

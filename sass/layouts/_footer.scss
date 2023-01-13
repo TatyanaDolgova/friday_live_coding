@@ -1,14 +1,27 @@
 .footer {
   padding: 60px 0 70px;
+  @include media-mobile {
+      padding: 31px 0;
+  }
 }
 
 .footer__wrapper {
   display: flex;
+  @include media-tablet {
+      flex-direction: column;
+  }
 }
 
 .footer-navigation {
   flex-grow: 1;
   padding-left: 152px;
+  @include media-tablet {
+      padding-left: 0;
+      margin-top: 34px;
+  }
+  @include media-mobile {
+      flex-direction: column;
+  }
 }
 
 .footer-navigation__title {
@@ -17,14 +30,13 @@
 
 .footer-navigation__links {
   @extend %font-add;
-  list-style: none;
   a {
-    color: $color-text;
-    @extend %transition;
-    @include font($size: 1.6rem, $height: 3.6rem, $weight: normal);
-    text-decoration: none;
-    &:hover {
-      color: $color-primary;
-    }
+      color: $color-text;
+      @extend %transition;
+      @include font($size: 1.6rem, $height: 3.5rem, $weight: normal);
+      text-decoration: none;
+      &:hover {
+          color: $color-primary;
+      }
   }
 }

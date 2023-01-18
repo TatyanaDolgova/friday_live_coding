@@ -990,6 +990,7 @@ h5 {
 }
 
 .strategy {
+  cursor: pointer;
   display: flex;
   flex-direction: column;
   position: relative;

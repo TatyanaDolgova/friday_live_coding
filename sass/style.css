@@ -500,9 +500,9 @@ h5 {
 }
 
 .tag {
+  cursor: pointer !important;
   border-radius: 90px;
   padding: 0 14px;
-  cursor: pointer;
   font-size: 1.3rem;
   font-style: normal;
   font-weight: normal;
@@ -990,7 +990,6 @@ h5 {
 }
 
 .strategy {
-  cursor: pointer;
   display: flex;
   flex-direction: column;
   position: relative;

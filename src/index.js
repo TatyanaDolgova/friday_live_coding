@@ -7,13 +7,22 @@ window.onload = function() {
 const addTagsClickHandler = () => {
   document.querySelector('.strategies__tags').addEventListener('click', (e) => {
     if(e.target.classList.contains('tag')) {
-      let clikedTag = e.target;
+      let clickedTag = e.target;
       removeSelectedTads();
+      selectClickedTag(clickedTag);
     }
   });
 };
 
 const removeSelectedTads= () => {
   let tags = document.querySelectorAll('.strategies__tags .tag');
-  console.log(tags);
+  tags.forEach(tag => {
+    tag.classList.remove('tag_selected');
+    tag.classList.add('tag_bordered');
+  });
 };
+
+const selectClickedTag = (clickedTag) => {
+  clickedTag.classList.add('tag_selected');
+  clickedTag.classList.remove('tag_bordered');
+}; 

@@ -1,11 +1,11 @@
 {
   "name": "friday_live_coding",
   "version": "1.0.0",
-  "description": "",
   "main": "index.js",
   "scripts": {
-    "style": "sass --watch src/sass/style.scss sass/style.css",
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "style": "sass --watch src/sass/style.scss src/sass/style.css",
+    "dev": "webpack --mode development",
+    "prod": "webpack --mode production"
   },
   "repository": {
     "type": "git",
@@ -19,5 +19,11 @@
   "homepage": "https://github.com/TatyanaDolgova/friday_live_coding#readme",
   "dependencies": {
     "normalize-scss": "^7.0.1"
-  }
+  },
+  "devDependencies": {
+    "webpack": "^5.75.0",
+    "webpack-cli": "^5.0.1"
+  },
+  "keywords": [],
+  "description": ""
 }

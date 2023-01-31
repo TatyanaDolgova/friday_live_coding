@@ -35,15 +35,7 @@ window.onload = function () {
 
   //Render Article
   if(data) {
-    const renderArticlesToDom = () => {
-      let strategiesWrapper = getStrategiesWrapper();
-    };
-
-    const getStrategiesWrapper = () => {
-      const strategiesConstainer = document.querySelector('.strategy-wrapper');
-      strategiesConstainer.innerHTML = '';
-      return strategiesConstainer;
-    };
+    renderArticlesToDom();
   }
 
   //Tags
@@ -95,4 +87,14 @@ const filterStrategyBySelectedTag = (selectedTag) => {
       }
     });
   });
+};
+
+const renderArticlesToDom = () => {
+  let strategiesWrapper = getStrategiesWrapper();
+};
+
+const getStrategiesWrapper = () => {
+  const strategiesConstainer = document.querySelector('.strategy-wrapper');
+  strategiesConstainer.innerHTML = '';
+  return strategiesConstainer;
 };

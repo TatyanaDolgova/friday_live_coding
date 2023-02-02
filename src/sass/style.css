@@ -637,6 +637,11 @@ h5 {
 .layout-3-column > * {
   flex-basis: 30%;
 }
+.layout-3-column:after {
+  content: "";
+  width: 30%;
+  display: block;
+}
 
 .layout-2-column {
   display: flex;

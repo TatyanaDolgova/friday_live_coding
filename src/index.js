@@ -1,5 +1,6 @@
 import { Article } from "./js/Article";
 import { Modal } from './js/Modal';
+import { ArticleModal } from './js/ArticleModal';
 
 const data = [
   {

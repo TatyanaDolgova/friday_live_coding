@@ -59,7 +59,6 @@ export class Modal {
   }
 
   openModal() {
-      console.log(this.overlay);
       document.body.append(this.overlay);
   }
 
